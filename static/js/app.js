@@ -90,8 +90,8 @@ function buildMetadata(sample) {
       var data = [trace1];
 
       var layout = {
-        title: 'Bubble Chart',
-        height: 800,
+        title: 'Culture Prevalence by ID',
+        height: 600,
         xaxis: {
           title: 'OTU ID'
         }
@@ -127,9 +127,9 @@ function buildMetadata(sample) {
       }];
       
       var pie_layout = {
-        title: 'Top Ten Pie Chart',
-        height: 800,
-        width: 800,
+        title: 'Top Ten Cultures Present in Sample',
+        height: 700,
+        width: 700,
       };
       
       // Plot pie chart 
